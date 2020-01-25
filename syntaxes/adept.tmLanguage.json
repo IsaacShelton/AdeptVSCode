@@ -1,0 +1,112 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Adept",
+	"patterns": [
+		{"include": "#meta-directives"},
+		{"include": "#keywords"},
+		{"include": "#strings"},
+		{"include": "#line-comments"},
+		{"include": "#block-comments"},
+		{"include": "#character-literals"},
+		{"include": "#null-terminated-strings"},
+		{"include": "#builtin-types"},
+		{"include": "#language-constants"},
+		{"include": "#polymorphs"},
+		{"include": "#global-constants"},
+		{"include": "#numeric"},
+		{"include": "#pragmas"}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.adept",
+				"match": "\\b(POD|alias|and|as|at|break|case|cast|continue|def|default|defer|delete|each|else|enum|external|for|foreign|func|funcptr|global|if|import|in|inout|new|or|out|packed|private|public|repeat|return|sizeof|static|stdcall|struct|switch|typeinfo|unless|until|while|void)\\b"
+			}]
+		},
+		"language-constants": {
+			"patterns": [{
+				"name": "constant.language.adept",
+				"match": "\\b(true|false|null|undef|this|it|idx)\\b"
+			}]
+		},
+		"global-constants": {
+			"patterns": [{
+				"name": "entity.name.function.preprocessor.adept",
+				"match": "\\b([A-Z_][A-Z0-9_]*)\\b"
+			}]
+		},
+		"polymorphs": {
+			"patterns": [{
+				"name": "support.type.polymorphic.adept",
+				"match": "\\$[a-zA-Z_][a-zA-Z0-9_]*(\\~[a-zA-Z_][a-zA-Z0-9_]*)?\\b"
+			}]
+		},
+		"builtin-types": {
+			"patterns": [{
+				"name": "support.type.adept",
+				"match": "\\b(bool|ptr|byte|ubyte|short|ushort|int|uint|long|ulong|usize|double|float|String|List|Array|Matrix4f|Vector3f|FILE)\\b"
+			}]
+		},
+		"pragmas": {
+			"patterns": [{
+				"name": "meta.preprocessor.adept",
+				"match": "\\bpragma( optimization (none|less|normal|aggressive)| [a-zA-Z_]+|)?\\b"
+			}]
+		},
+		"meta-directives": {
+			"patterns": [{
+				"name": "keyword.control.meta-directive.adept",
+				"match": "#[a-zA-Z_]*\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.adept",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.adept",
+					"match": "\\\\."
+				}
+			]
+		},
+		"null-terminated-strings": {
+			"name": "string.quoted.single.adept",
+			"begin": "'",
+			"end": "'",
+			"patterns": [
+				{
+					"name": "constant.character.escape.adept",
+					"match": "\\\\."
+				}
+			]
+		},
+		"character-literals": {
+			"patterns": [{
+				"name": "string.quoted.character.adept",
+				"match": "'(\\\\)?.'ub"
+			}]
+		},
+		"numeric": {
+			"patterns": [
+				{
+					"name": "constant.numeric",
+					"match": "\\b((0x[0-9A-Fa-f]+)|([0-9]+(\\.[0-9]+)?))(u|s|ub|sb|us|ss|ui|si|ul|sl|uz|f|d)?\\b"
+				}
+			]
+		},
+		"line-comments": {
+			"name": "comment.line.double-slash.adept",
+			"begin": "//",
+			"end": "$\n?"
+		},
+		"block-comments": {
+			"name": "comment.line.block.adept",
+			"begin": "/\\*",
+			"end": "\\*/"
+		}
+	},
+	"scopeName": "source.adept",
+	"foldingStartMarker": "{*$",
+	"foldingStopMarker": "^*}"
+}
