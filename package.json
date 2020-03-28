@@ -2,7 +2,7 @@
     "name": "adept-language",
     "displayName": "Adept Language",
     "description": "Adept Language Support for VS Code",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "publisher": "DockySoft",
     "engines": {
         "vscode": "^1.41.0"
@@ -20,16 +20,25 @@
         "theme": "light"
     },
     "contributes": {
-        "languages": [{
-            "id": "adept",
-            "aliases": ["Adept", "adept"],
-            "extensions": [".adept"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "adept",
-            "scopeName": "source.adept",
-            "path": "./syntaxes/adept.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "adept",
+                "aliases": [
+                    "Adept",
+                    "adept"
+                ],
+                "extensions": [
+                    ".adept"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "adept",
+                "scopeName": "source.adept",
+                "path": "./syntaxes/adept.tmLanguage.json"
+            }
+        ]
     }
 }
