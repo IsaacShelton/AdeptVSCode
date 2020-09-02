@@ -2,6 +2,9 @@
 
 All notable changes to the "adept-language" extension will be documented in this file.
 
+## 1.2.0 - Mar 28 2020
+- Added 'va_list', 'va_start', 'va_end', 'va_copy', and 'va_arg' keywords
+
 ## 1.1.0 - Mar 28 2020
 - Added 'fallthrough' keyword
 
