@@ -20,7 +20,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.adept",
-				"match": "\\b(POD|alias|and|as|at|break|case|cast|continue|def|default|defer|delete|each|else|enum|external|fallthrough|for|foreign|func|funcptr|global|if|import|in|inout|new|or|out|packed|private|public|repeat|return|sizeof|static|stdcall|struct|switch|typeinfo|unless|until|while|va_list|va_start|va_end|va_copy|va_arg|verbatim|void)\\b"
+				"match": "\\b(POD|alias|and|as|at|break|case|cast|continue|def|default|defer|delete|each|else|enum|external|fallthrough|for|foreign|func|funcptr|global|if|import|in|inout|new|or|out|packed|private|public|repeat|return|sizeof|static|stdcall|struct|switch|typeinfo|unless|until|while|va_start|va_end|va_copy|va_arg|verbatim|void)\\b"
 			}]
 		},
 		"language-constants": {
@@ -44,7 +44,7 @@
 		"builtin-types": {
 			"patterns": [{
 				"name": "support.type.adept",
-				"match": "\\b(bool|ptr|byte|ubyte|short|ushort|int|uint|long|ulong|usize|double|float|String|List|Array|Matrix4f|Vector3f|FILE)\\b"
+				"match": "\\b(bool|ptr|byte|ubyte|short|ushort|int|uint|long|ulong|usize|double|float|String|List|Array|Matrix4f|Vector3f|FILE|va_list)\\b"
 			}]
 		},
 		"pragmas": {
