@@ -2,6 +2,9 @@
 
 All notable changes to the "adept-language" extension will be documented in this file.
 
+## 1.5.0 - Mar 28 2020
+- Added 'exhaustive' and 'union' keywords
+
 ## 1.4.0 - Mar 28 2020
 - Changed 'va_list' to be a type instead of a keyword
 
