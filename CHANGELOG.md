@@ -2,6 +2,12 @@
 
 All notable changes to the "adept-language" extension will be documented in this file.
 
+## 1.7.0 - Mar 28 2020
+- Added 'namespace' keyword
+
+## 1.6.0 - Mar 28 2020
+- Added 'const' keyword
+
 ## 1.5.0 - Mar 28 2020
 - Added 'exhaustive' and 'union' keywords
 
