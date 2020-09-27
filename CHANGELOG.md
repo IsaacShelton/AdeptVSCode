@@ -2,7 +2,10 @@
 
 All notable changes to the "adept-language" extension will be documented in this file.
 
-## 1.7.0 - Mar 28 2020
+## 1.8.0 - Sep 26 2020
+- Added 'using' keyword
+
+## 1.7.0 - Sep 26 2020
 - Added 'namespace' keyword
 
 ## 1.6.0 - Mar 28 2020
