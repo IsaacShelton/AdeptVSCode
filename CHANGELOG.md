@@ -2,6 +2,9 @@
 
 All notable changes to the "adept-language" extension will be documented in this file.
 
+## 1.9.0 - Oct 2 2020
+- Added 'implicit' keyword and moved 'pragma' to keywords
+
 ## 1.8.0 - Sep 26 2020
 - Added 'using' keyword
 
