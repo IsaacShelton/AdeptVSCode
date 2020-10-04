@@ -2,6 +2,9 @@
 
 All notable changes to the "adept-language" extension will be documented in this file.
 
+## 1.10.0 - Oct 4 2020
+- Added '#' and '~' polymorphs
+
 ## 1.9.0 - Oct 2 2020
 - Added 'implicit' keyword and moved 'pragma' to keywords
 
