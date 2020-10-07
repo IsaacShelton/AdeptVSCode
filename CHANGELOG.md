@@ -2,6 +2,9 @@
 
 All notable changes to the "adept-language" extension will be documented in this file.
 
+## 1.12.0 - Oct 8 2020
+- Added 'define' keyword
+
 ## 1.11.0 - Oct 4 2020
 - Made '$#N' polycounts into a different token then '$T' polymorphs
 
