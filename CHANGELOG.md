@@ -2,6 +2,9 @@
 
 All notable changes to the "adept-language" extension will be documented in this file.
 
+## 1.13.0 - Oct 8 2020
+- Added 'elif' keyword
+
 ## 1.12.0 - Oct 8 2020
 - Added 'define' keyword
 

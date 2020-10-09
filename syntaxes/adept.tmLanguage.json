@@ -19,7 +19,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.adept",
-				"match": "\\b(POD|alias|and|as|at|break|case|cast|continue|def|default|defer|delete|each|else|enum|external|fallthrough|for|foreign|func|funcptr|global|if|import|in|inout|new|or|out|packed|private|public|repeat|return|sizeof|static|stdcall|struct|switch|typeinfo|unless|until|while|va_start|va_end|va_copy|va_arg|verbatim|void|union|exhaustive|const|define|namespace|using|implicit|pragma)\\b"
+				"match": "\\b(POD|alias|and|as|at|break|case|cast|continue|def|default|defer|delete|each|else|enum|external|fallthrough|for|foreign|func|funcptr|global|if|import|in|inout|new|or|out|packed|private|public|repeat|return|sizeof|static|stdcall|struct|switch|typeinfo|unless|until|while|va_start|va_end|va_copy|va_arg|verbatim|void|union|exhaustive|const|define|namespace|using|implicit|pragma|elif)\\b"
 			}]
 		},
 		"language-constants": {
