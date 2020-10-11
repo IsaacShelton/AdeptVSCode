@@ -2,7 +2,7 @@
 
 All notable changes to the "adept-language" extension will be documented in this file.
 
-## 1.14.0 - Oct 11 2020
+## 1.14.0-1.15.0 - Oct 11 2020
 - Added 'llvm_asm' keyword
 
 ## 1.13.0 - Oct 8 2020
