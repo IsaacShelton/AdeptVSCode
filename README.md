@@ -1,8 +1,11 @@
 # Adept Language Support for VS Code
 
+### Provides
+- Syntax Highlighting for Adept
 
-## Features
-Adds support for basic syntax highlighting for Adept 2.x for VS Code.
+### Does not Provide
+- Syntax Checking
+- Auto-Completion
+- Hover Tooltips
 
-### 1.0.0
-Initial release of Adept Language Support for VS Code
+These features can be obtained by installing the [Adept Insight Extension](https://marketplace.visualstudio.com/items?itemName=DockySoft.adept-language-insight)
