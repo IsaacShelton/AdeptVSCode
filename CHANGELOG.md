@@ -2,6 +2,9 @@
 
 All notable changes to the "adept-language" extension will be documented in this file.
 
+## 1.16.0 - Dec 28 2020
+- Added 'thread_local' keyword
+
 ## 1.14.0-1.15.0 - Oct 11 2020
 - Added 'llvm_asm' keyword
 
