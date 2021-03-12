@@ -46,7 +46,7 @@
 		"builtin-types": {
 			"patterns": [{
 				"name": "support.type.adept",
-				"match": "\\b(bool|ptr|byte|ubyte|short|ushort|int|uint|long|ulong|usize|double|float|String|List|Array|Matrix4f|Vector3f|FILE|va_list)\\b"
+				"match": "\\b(bool|ptr|byte|ubyte|short|ushort|int|uint|long|ulong|usize|double|float|String|List|Array|Matrix4f|Vector3f|FILE|va_list|successful)\\b"
 			}]
 		},
 		"meta-directives": {
