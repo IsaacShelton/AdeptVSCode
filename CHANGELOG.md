@@ -2,6 +2,9 @@
 
 All notable changes to the "adept-language" extension will be documented in this file.
 
+## 1.18.0 - Jun 7 2021
+- Added 'embed' keyword
+
 ## 1.16.0 - Dec 28 2020
 - Added 'thread_local' keyword
 
